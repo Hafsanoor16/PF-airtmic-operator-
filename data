@@ -1,0 +1,18 @@
+task 1
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "My name is"<<"Sarah Khan" << endl;
+    cout << "My ID is "<<"7896" <<endl;
+    cout << "My address is"<<"F-10 Markaz islamabad" <<endl;
+    cout << "My phone number is"<<"03001234567"<<endl;
+    cout <<"My birthday is on"<<"May 15,1999"<<endl;
+    cout <<"My age is"<<"18"<<endl;
+    cout <<"My father name is"<<"Arshad"<<endl;
+    cout <<"My mother name is"<<"Iffat"<<endl;
+    cout <<"My brother name is"<<"Zeeshan"<<endl;
+    return 0;
+}
