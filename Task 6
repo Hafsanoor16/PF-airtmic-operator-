@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    cout<<"Task 4"<<endl;
+    int userBase;
+    cout<<"Enter a user define base"<<endl;
+    cin>>userBase;
+    int userdefinenumber;
+    cout<<"Enter a 3 digit long number"<<endl;
+    cin>>userdefinenumber;
+    int decimal=0;
+    int base=1;
+    while(userdefinenumber){
+
+    int last_digit=userdefinenumber%9;
+    userdefinenumber/=9;
+    decimal +=last_digit*base;
+    base*=2;
+
+    }
+    cout<<"Decimal equivalent:"<<decimal<<endl;
+
+    return 0;
+}
