@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    cout<<"task 6 speed of Train"<<endl;
+    double distance=1221.5;
+    double totalDistance=distance*3*2;
+    double totalTime=(24*60)-(3*30);
+    double speed=totalDistance/(totalTime/60);
+    cout<<"speed of Train"<<speed<<"km/h"<<endl;
+
+    return 0;
+}
