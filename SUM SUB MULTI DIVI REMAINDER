@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int num1;
+    int num2;
+
+    cout<<"Enter a number 1"<<endl;
+    cin>>num1;
+    cout<<"Enter a number 2"<<endl;
+    cin>>num2;
+    int sum=num1+num2;
+
+    cout<<"The sum is"<<sum<<endl;
+
+
+    int subtraction=num1-num2;
+
+    cout<<"The subtraction is"<<subtraction<<endl;
+
+
+    int multiplication=num1*num2;
+
+    cout<<"The multiplication is"<<multiplication<<endl;
+
+    int division=num1/num2;
+
+    cout<<"The division is"<<division<<endl;
+
+    int remainder=num1%num2;
+
+    cout<<"The remainder is"<<remainder<<endl;
+
+    return 0;
+}
