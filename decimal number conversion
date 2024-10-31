@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout <<"Task 5 Number conversion"<<endl;
+    int binary;
+    cout<<"Enter a 3 digit binary number"<<endl;
+    cin>>binary;
+
+    int decimal=0;
+    int base=1;
+
+    while(binary){
+
+        int last_digit=binary%10;
+        binary/=10;
+        decimal +=last_digit*base;
+        base*=2;
+
+    }
+
+    cout<<"Decimal equivalent:"<<decimal<<endl;
+
+    return 0;
+}
