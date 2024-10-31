@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    double P;
+    double T;
+    double R;
+    cout<<"Enter principle,Time,Rate"<<endl;
+    cin>>P>>T>>R;
+    double SI=(P*T*R)/100;
+    cout<<"Simple Interest"<<SI<<endl;
+
+    return 0;
+}
